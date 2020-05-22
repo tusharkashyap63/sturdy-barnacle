@@ -1,0 +1,24 @@
+#c1{border:solid 3px white}
+h1{font-family:"Courier New", Courier, monospace; text-align: center; background-color:#8D8741; border-style:dotted; color:#FBEEC1;border-color:#FBEEC1;}
+body {
+  background-color:#659DBD;
+}
+.button1{background-color:#8D8741; font-size: 20px; border: 2px solid gray; transition-duration: 0.4s;}
+.button2{background-color:#BC986A; font-size: 20px; transition-duration: 0.4s; border: 2px solid RED;}
+.button3{background-color:#DAAD86; font-size: 20px; border: 2px solid purple; color:black; transition-duration: 0.4s;}
+.button4{background-color:#fcd3ae; font-size: 20px; border: 2px solid brown; color:black; transition-duration: 0.4s;}
+.button1:hover {
+  background-color:gray;
+  color:white;}
+.button2:hover {
+  background-color:red;
+  color:white;}
+.button3:hover {
+  background-color:purple;
+  color:white;
+}
+.button4:hover {
+  background-color:brown;
+  color:white;
+}
+h3{font-family:Comic Sans MS, cursive, sans-serif; color:#FBEEC1;}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Effects and Filters</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script>
+  <script src="js/effect.js"></script>
+</head>
+<body>
+	<header>
+<h1>Pixel Player</h1>
+<h3>Upload your image and try out different filters.</h3>
+</header>
+<canvas id="c1">
+</canvas>
+<input type="file"
+       multiple="false"
+       accept="image/*"
+       id="inputfile"
+       onchange="upload()">
+<h3>Choose Filter</h3>
+<input class="button1" type="button"
+       value="Grayscale"
+       onclick="doGray()">
+<input class="button2" type="button"
+       value="Red"
+       onclick="doRed()">
+<input class="button3"type="button"
+       value="Rainbow"
+       onclick="doRainbow()">
+<input class="button4"type="button"
+       value="FilmReel"
+       onclick="doReel()">
+<p>
+  <input type="button"
+       value="Reset"
+       onclick="reset()">
+  </p>
+</body>
+</html>
